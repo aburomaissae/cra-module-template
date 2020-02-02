@@ -14,6 +14,10 @@ const Card = ({bgColor, options, children}) => {
 };
 
 Card.propTypes = {
+  children: PropTypes.oneOfType([
+    PropTypes.arrayOf(PropTypes.node),
+    PropTypes.node
+  ]).isRequired,
   bgColor: PropTypes.string,
   options: PropTypes.arrayOf(PropTypes.object).isRequired,
 }

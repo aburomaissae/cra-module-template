@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["es2017", "dom", "ES2018"],
+    "allowJs": true,
+    "checkJs": true,
+    "noEmit": false,
+    "strict": false,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "rootDir":"src/components",
+    "outDir": "dist"
+  },
+  "include": ["src/components/**/*"],
+  "exclude": ["src/**/*.d.ts"]
+}
